@@ -165,3 +165,20 @@ body{
 }
 
 
+@media only screen and (max-width: 600px) {
+
+    .balance-bar,.chart-box{
+        width: 280px;
+    }
+
+    .chart-bar{
+        width: 25px;
+    }
+    .day-bar{
+        width: 35px;
+    }
+
+    
+}
+
+
