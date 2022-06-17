@@ -1,0 +1,167 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+body{
+    background-color: hsl(27, 66%, 92%);
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.balance-bar
+{
+    width: 400px;
+    min-height: 80px;
+    background-color:hsl(10, 79%, 65%);
+    border-radius: 12px;
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-inline: 20px;
+}
+
+.balance-bar div{
+    font-size:xx-small;
+    font-weight: 100;
+  
+
+}
+.balance-bar div p{
+    font-size:large;
+    margin: 0px ;
+    margin-top: 5px;
+    font-weight: 600;
+  
+
+}
+
+.chart-box{
+    margin-top: 15px;
+    width: 400px;
+    min-height: 380px;
+    background-color:white;
+    border-radius: 12px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    
+    padding-inline: 20px;
+
+}
+
+.chart-box>p{
+    font-size: large;
+    font-weight: 700;;
+
+}
+
+
+
+
+
+.label {
+    padding-top: 10px;
+    font-size:10px;
+    font-weight: 100;
+    color:rgb(154, 154, 154) ;
+    margin-bottom: 2px;
+}
+
+.label-total
+{
+    margin: 0px 0px 20px 0px;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.lower-comp
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid rgba(128, 128, 128, 0.452);
+}
+
+.no-mg-no-pd
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.pc{
+    font-size: x-small;
+}
+
+.txt-align-right
+{
+    text-align: right;
+}
+
+.comparison
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.chart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-content: flex-end;
+    flex-wrap: nowrap;
+    height: 180px;
+}
+
+.chart-bar
+{
+    width: 40px;
+    background-color:hsl(10, 79%, 65%);
+    border-radius: 3px;
+    height: 100%;
+    cursor: pointer;
+}
+
+.chart-bar:hover{
+    background-color: hsla(10, 79%, 65%, 0.565);
+
+}
+
+.today{
+    background-color: hsl(186, 34%, 60%);
+}
+
+.today:hover{
+    background-color: hsla(186, 34%, 60%, 0.61);
+
+}
+
+.day-bar
+{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.annotation{
+    background-color: black;
+    color: white;
+    font-size:12px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    width: 45px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+
