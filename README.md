@@ -12,3 +12,4 @@ Your users should be able to:
 - See hover states for all interactive elements on the page
 - See dynamically generated bars based on the data provided in the local JSON file
 
+-a test feature
